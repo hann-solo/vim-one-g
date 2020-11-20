@@ -297,22 +297,22 @@ if has('gui_running') || has('termguicolors') || &t_Co == 88 || &t_Co == 256
     let s:mono_3        = ['#5c6370', '59']
     let s:mono_4        = ['#4b5263', '59']     " lighter
 
-    let s:hue_1         = ['#3D93D0', '73']     " cyan ゼータ
-    let s:hue_2         = ['#0867B7', '75']     " blue ゼータ
-    let s:hue_3         = ['#457BBB', '176']    " purple Gディフェンサー
-    let s:hue_4         = ['#3D8D68', '114']    " green ゼータ
+    let s:hue_1         = ['#1F94F9', '73']     " cyan キュベレイmk2
+    let s:hue_2         = ['#1F7AF9', '75']     " blue キュベレイmk2
+    let s:hue_3         = ['#794CCD', '176']    " purple キュベレイmk2
+    let s:hue_4         = ['#1F936D', '114']    " green キュベレイmk2
 
-    let s:hue_5         = ['#DE6960', '168']    " red 1 淡赤 ゼータ
-    let s:hue_5_2       = ['#CA4131', '130']    " red 2 濃赤 ゼータ
+    let s:hue_5         = ['#B5426B', '168']    " red 1 淡赤 キュベレイmk2
+    let s:hue_5_2       = ['#C2172F', '130']    " red 2 濃赤 キュベレイmk2
 
-    let s:hue_6         = ['#DEA82A', '173']    " orange 1 濃い黄土 inc search ゼータ
-    let s:hue_6_2       = ['#FDCB4A', '180']    " orange 2 薄い黄土 search ゼータ
+    let s:hue_6         = ['#B26144', '173']    " orange 1 濃い黄土 inc search キュベレイmk2
+    let s:hue_6_2       = ['#F8B55C', '180']    " orange 2 薄い黄土 search キュベレイmk2
 
     let s:syntax_bg     = ['#282c34', '16']
     let s:syntax_gutter = ['#636d83', '60']
     let s:syntax_cursor = ['#2c323c', '16']
 
-    let s:syntax_accent = ['#56B4DA', '69']     " 爽青 カーソルbg ゼータ
+    let s:syntax_accent = ['#42D7D7', '69']     " 爽青 カーソルbg キュベレイcustom
 
     let s:vertsplit     = ['#181a1f', '233']
     let s:special_grey  = ['#3b4048', '16']
