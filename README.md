@@ -1,3 +1,14 @@
+## 短い注
+
+ガンダムっぽい（ZガンダムおよびZZガンダムのキュベレイっぽい）カラースキーム。
+[rakr/vim-one](https://github.com/rakr/vim-one)をフォークして、色を変えた。
+
+![light][https://github.com/hann-solo/vim-one-g/blob/master/screenshots/SS-light.png]
+![dark][https://github.com/hann-solo/vim-one-g/blob/master/screenshots/SS-dark.png]
+
+
+---------- ここから下は、オリジナルのvin-oneのドキュメント ----------
+
 ![Logo][logo]
 
 Light and dark vim colorscheme, shamelessly stolen from atom (another
