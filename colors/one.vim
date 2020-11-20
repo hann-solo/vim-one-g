@@ -292,61 +292,61 @@ if has('gui_running') || has('termguicolors') || &t_Co == 88 || &t_Co == 256
   let s:dark = 0
   if &background ==# 'dark'
     let s:dark = 1
-    let s:mono_1 = ['#abb2bf', '145']
-    let s:mono_2 = ['#828997', '102']
-    let s:mono_3 = ['#5c6370', '59']
-    let s:mono_4 = ['#4b5263', '59']
+    let s:mono_1        = ['#abb2bf', '145']    " darker
+    let s:mono_2        = ['#828997', '102']
+    let s:mono_3        = ['#5c6370', '59']
+    let s:mono_4        = ['#4b5263', '59']     " lighter
 
-    let s:hue_1  = ['#3D93D0', '73'] " cyan ゼータ
-    let s:hue_2  = ['#0867B7', '75'] " blue ゼータ
-    let s:hue_3  = ['#457BBB', '176'] " purple Gディフェンサー
-    let s:hue_4  = ['#3D8D68', '114'] " green この行とか ゼータ
+    let s:hue_1         = ['#3D93D0', '73']     " cyan ゼータ
+    let s:hue_2         = ['#0867B7', '75']     " blue ゼータ
+    let s:hue_3         = ['#457BBB', '176']    " purple Gディフェンサー
+    let s:hue_4         = ['#3D8D68', '114']    " green ゼータ
 
-    let s:hue_5   = ['#DE6960', '168'] " red 1 淡赤 ゼータ
-    let s:hue_5_2 = ['#CA4131', '130'] " red 2 濃赤 ゼータ
+    let s:hue_5         = ['#DE6960', '168']    " red 1 淡赤 ゼータ
+    let s:hue_5_2       = ['#CA4131', '130']    " red 2 濃赤 ゼータ
 
-    let s:hue_6   = ['#DEA82A', '173'] " orange 1 濃い黄土色 インクリメンタルサーチ ゼータ
-    let s:hue_6_2 = ['#FDCB4A', '180'] " orange 2 薄い黄土色 インクリメンタルサーチ ゼータ
+    let s:hue_6         = ['#DEA82A', '173']    " orange 1 濃い黄土 inc search ゼータ
+    let s:hue_6_2       = ['#FDCB4A', '180']    " orange 2 薄い黄土 search ゼータ
 
     let s:syntax_bg     = ['#282c34', '16']
     let s:syntax_gutter = ['#636d83', '60']
     let s:syntax_cursor = ['#2c323c', '16']
 
-    let s:syntax_accent = ['#56B4DA', '69']     " 爽やか目の青 ゼータ
+    let s:syntax_accent = ['#56B4DA', '69']     " 爽青 カーソルbg ゼータ
 
-    let s:vertsplit    = ['#181a1f', '233']
-    let s:special_grey = ['#3b4048', '16']
-    let s:visual_grey  = ['#3e4452', '17']
-    let s:pmenu        = ['#333841', '16']
+    let s:vertsplit     = ['#181a1f', '233']
+    let s:special_grey  = ['#3b4048', '16']
+    let s:visual_grey   = ['#3e4452', '17']
+    let s:pmenu         = ['#333841', '16']
   else
     " light mode ----------------------------------------------------
-    let s:mono_1 = ['#494b53', '23']    " darker
-    let s:mono_2 = ['#696c77', '60']
-    let s:mono_3 = ['#a0a1a7', '145']
-    let s:mono_4 = ['#c2c2c3', '250']   " lighter
+    let s:mono_1        = ['#494b53', '23']     " darker
+    let s:mono_2        = ['#696c77', '60']
+    let s:mono_3        = ['#a0a1a7', '145']
+    let s:mono_4        = ['#c2c2c3', '250']    " lighter
 
-    let s:hue_1  = ['#4477C6', '31'] " cyan キュベレイパーツ
-    let s:hue_2  = ['#2554A4', '33'] " blue キュベレイパーツ
-    let s:hue_3  = ['#601FCF', '127'] " purple キュベレイ
-    let s:hue_4  = ['#4C7A79', '71'] " green キュベレイ
+    let s:hue_1         = ['#4477C6', '31']     " cyan キュベレイパーツ
+    let s:hue_2         = ['#2554A4', '33']     " blue キュベレイパーツ
+    let s:hue_3         = ['#601FCF', '127']    " purple キュベレイ
+    let s:hue_4         = ['#4C7A79', '71']     " green キュベレイ
 
-    let s:hue_5   = ['#FF428E', '166'] " red 1 オレンジっぽい キュベレイ
-    let s:hue_5_2 = ['#C82B68', '160'] " red 2 紅っぽい キュベレイ
+    let s:hue_5         = ['#FF428E', '166']    " red 1 オレンジっぽい キュベレイ
+    let s:hue_5_2       = ['#C82B68', '160']    " red 2 紅っぽい キュベレイ
 
-    let s:hue_6   = ['#D2623C', '94'] " orange 1 濃い黄土色 インクリメンタルサーチ ミネルバ
-    let s:hue_6_2 = ['#BB8910', '136'] " orange 2 薄い黄土色 サーチ結果 ミネルバ
+    let s:hue_6         = ['#D2623C', '94']     " orange 1 濃い黄土 inc search ミネルバ
+    let s:hue_6_2       = ['#BB8910', '136']    " orange 2 薄い黄土 search ミネルバ
 
     let s:syntax_bg     = ['#fafafa', '255']
     let s:syntax_gutter = ['#9e9e9e', '247']
     let s:syntax_cursor = ['#f0f0f0', '254']
 
-    let s:syntax_accent   = ['#4477C6', '63']   " 薄いブルー、イコール、カーソルbg
+    let s:syntax_accent = ['#4477C6', '63']     " 薄いブルー、イコール、カーソルbg
     let s:syntax_accent_2 = ['#0083be', '31']   " not used not changed
 
-    let s:vertsplit    = ['#e7e9e1', '188']
-    let s:special_grey = ['#d3d3d3', '251']
-    let s:visual_grey  = ['#d0d0d0', '251']
-    let s:pmenu        = ['#dfdfdf', '253']
+    let s:vertsplit     = ['#e7e9e1', '188']
+    let s:special_grey  = ['#d3d3d3', '251']
+    let s:visual_grey   = ['#d0d0d0', '251']
+    let s:pmenu         = ['#dfdfdf', '253']
   endif
 
   let s:syntax_fg = s:mono_1
